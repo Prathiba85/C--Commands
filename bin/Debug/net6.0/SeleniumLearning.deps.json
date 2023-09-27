@@ -16,6 +16,7 @@
           "NUnit3TestAdapter": "4.4.2",
           "Selenium.Support": "4.12.4",
           "Selenium.WebDriver": "4.12.4",
+          "Unipluss.Sign.Client": "1.0.2876",
           "WebDriverManager": "2.17.1",
           "coverlet.collector": "3.2.0"
         },
@@ -31,6 +32,14 @@
           "lib/net6.0/AngleSharp.dll": {
             "assemblyVersion": "1.0.4.0",
             "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "AutoMapper/4.1.1": {
+        "runtime": {
+          "lib/net45/AutoMapper.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.1.1.0"
           }
         }
       },
@@ -426,6 +435,14 @@
       },
       "NUnit.Analyzers/3.6.1": {},
       "NUnit3TestAdapter/4.4.2": {},
+      "protobuf-net/2.0.0.668": {
+        "runtime": {
+          "lib/net40/protobuf-net.dll": {
+            "assemblyVersion": "2.0.0.668",
+            "fileVersion": "2.0.0.668"
+          }
+        }
+      },
       "Selenium.Support/4.12.4": {
         "dependencies": {
           "Selenium.WebDriver": "4.12.4"
@@ -447,6 +464,14 @@
           "lib/netstandard2.0/WebDriver.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "ServiceStack.Text/3.9.38": {
+        "runtime": {
+          "lib/net35/ServiceStack.Text.dll": {
+            "assemblyVersion": "3.9.38.0",
+            "fileVersion": "3.9.38.0"
           }
         }
       },
@@ -693,6 +718,39 @@
       },
       "System.Threading.Tasks.Extensions/4.5.4": {},
       "System.ValueTuple/4.5.0": {},
+      "Unipluss.Sign.Client/1.0.2876": {
+        "dependencies": {
+          "AutoMapper": "4.1.1",
+          "ServiceStack.Text": "3.9.38",
+          "protobuf-net": "2.0.0.668"
+        },
+        "runtime": {
+          "lib/net4/Unipluss.Sign.Client.Common.dll": {
+            "assemblyVersion": "1.0.2876.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net4/Unipluss.Sign.Client.dll": {
+            "assemblyVersion": "1.0.2876.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net4/Unipluss.Sign.Common.Rest.dll": {
+            "assemblyVersion": "1.0.2876.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net4/Unipluss.Sign.Common.Validation.dll": {
+            "assemblyVersion": "1.0.2876.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net4/Unipluss.Sign.ExternalContract.dll": {
+            "assemblyVersion": "1.0.2876.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net40/Unipluss.Sign.Client.dll": {
+            "assemblyVersion": "1.0.2876.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "WebDriverManager/2.17.1": {
         "dependencies": {
           "AngleSharp": "1.0.4",
@@ -721,6 +779,13 @@
       "sha512": "sha512-G8R4C2MEDFQvjUbYz1QIcGfibjsTJnzP0aWy8iQgWWk7eKacYydCNGD3JMhVL0Q5pZQ9RYlqpKNESEU5NpqsRw==",
       "path": "anglesharp/1.0.4",
       "hashPath": "anglesharp.1.0.4.nupkg.sha512"
+    },
+    "AutoMapper/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wTNIFaF21i0heEEOMOLn4Ki991I+b6Ls+tiwTvmzVhkLo5PmSJcNLuf2eGJEtUnQ3UDBTAAdZEaXAgbTqOe2pg==",
+      "path": "automapper/4.1.1",
+      "hashPath": "automapper.4.1.1.nupkg.sha512"
     },
     "coverlet.collector/3.2.0": {
       "type": "package",
@@ -876,6 +941,13 @@
       "path": "nunit3testadapter/4.4.2",
       "hashPath": "nunit3testadapter.4.4.2.nupkg.sha512"
     },
+    "protobuf-net/2.0.0.668": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Lgj+Kf1+RV0utKxX9u1WEcymPGrbWrj/AwFmFADFLLa/LLdc1ji2MIGcecFRAGUu6UO8BRbdjZAIYWvLlN1B/A==",
+      "path": "protobuf-net/2.0.0.668",
+      "hashPath": "protobuf-net.2.0.0.668.nupkg.sha512"
+    },
     "Selenium.Support/4.12.4": {
       "type": "package",
       "serviceable": true,
@@ -889,6 +961,13 @@
       "sha512": "sha512-t0YucC2p5SKpWHBrWmR1TdJ/pXBoWyRHVRbs+iy4PPvaowl013e2fzCcdi6Kj1xeZcJ2mCh2V1jDggLHe/83+Q==",
       "path": "selenium.webdriver/4.12.4",
       "hashPath": "selenium.webdriver.4.12.4.nupkg.sha512"
+    },
+    "ServiceStack.Text/3.9.38": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t7968uk9PyqX69L9+5WLrRPcmkADzkbKlG5m6k5VzJcOMdvV6SF7Rls69o/S7K6lT3+KU6GgijYmlNu7EHc9LA==",
+      "path": "servicestack.text/3.9.38",
+      "hashPath": "servicestack.text.3.9.38.nupkg.sha512"
     },
     "SharpZipLib/1.4.2": {
       "type": "package",
@@ -1134,6 +1213,13 @@
       "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
       "path": "system.valuetuple/4.5.0",
       "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    },
+    "Unipluss.Sign.Client/1.0.2876": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Ncgr/yGSh9pHG74kVZ6O1sugxehCaC1iimeudfSlcUznDZT9ncixv6Ss5Jn99hV1kkn0wAXRUGKDeCU2n1KeA==",
+      "path": "unipluss.sign.client/1.0.2876",
+      "hashPath": "unipluss.sign.client.1.0.2876.nupkg.sha512"
     },
     "WebDriverManager/2.17.1": {
       "type": "package",

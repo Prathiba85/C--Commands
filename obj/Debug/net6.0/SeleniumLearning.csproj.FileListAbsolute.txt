@@ -118,3 +118,11 @@ C:\Users\sanpr\source\repos\rahulshettyacademy\SeleniumLearning\bin\Debug\net6.0
 C:\Users\sanpr\source\repos\rahulshettyacademy\SeleniumLearning\bin\Debug\net6.0\SeleniumExtras.WaitHelpers.dll
 C:\Users\sanpr\source\repos\rahulshettyacademy\SeleniumLearning\bin\Debug\net6.0\LanguageExt.Core.dll
 C:\Users\sanpr\source\repos\rahulshettyacademy\SeleniumLearning\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\sanpr\source\repos\rahulshettyacademy\SeleniumLearning\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\sanpr\source\repos\rahulshettyacademy\SeleniumLearning\bin\Debug\net6.0\protobuf-net.dll
+C:\Users\sanpr\source\repos\rahulshettyacademy\SeleniumLearning\bin\Debug\net6.0\ServiceStack.Text.dll
+C:\Users\sanpr\source\repos\rahulshettyacademy\SeleniumLearning\bin\Debug\net6.0\Unipluss.Sign.Client.Common.dll
+C:\Users\sanpr\source\repos\rahulshettyacademy\SeleniumLearning\bin\Debug\net6.0\Unipluss.Sign.Client.dll
+C:\Users\sanpr\source\repos\rahulshettyacademy\SeleniumLearning\bin\Debug\net6.0\Unipluss.Sign.Common.Rest.dll
+C:\Users\sanpr\source\repos\rahulshettyacademy\SeleniumLearning\bin\Debug\net6.0\Unipluss.Sign.Common.Validation.dll
+C:\Users\sanpr\source\repos\rahulshettyacademy\SeleniumLearning\bin\Debug\net6.0\Unipluss.Sign.ExternalContract.dll
